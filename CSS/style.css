@@ -1,75 +1,103 @@
-*{
-    margin:0;
+* {
+  margin: 0;
 }
-.home{
-    background-image:url(./images/Copy\ of\ drew-coffman-1872.jpg);
-    width: 100%;
-    height: 100vh;
-    background-position: center;
-    background-size: 100% 100%;
-    overflow: auto;
+.home {
+  background-image: url(..//images/Copy\ of\ drew-coffman-1872.jpg);
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-size: 100% 100%;
+  overflow: auto;
 }
-.home-cap{
-    text-align: center;
-    color: whitesmoke;
-    margin-top: 50px;
+.home-cap {
+  text-align: center;
+  color: whitesmoke;
+  margin-top: 50px;
 }
-.nav{
-    
+.nav {
 }
-.nav-logo{
-    width: 15%;
-    float: left;
-    margin-top: 15px;
+.nav-logo {
+  width: 15%;
+  float: left;
+  margin-top: 15px;
 }
-.nav-logo img{
-    width: 100%;
+.nav-logo img {
+  width: 100%;
 }
-.nav-link{
+.nav-link {
+}
+.nav-link ul {
+  float: right;
+}
+.nav-link ul li {
+  list-style-type: none;
+  padding: 15px;
+  float: left;
+  margin-top: 15px;
+}
+.nav-link ul li a {
+  color: white;
+  text-decoration: none;
+}
+.clr 
+{
+  clear: both;
+}
+.container {
+  width: 90%;
+  margin: auto;
+}
+.home-cap p {
+  font-size: 23px;
+}
+.home-cap h1 {
+  font-size: 55px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+.home-cap .btn {
+  padding: 15px;
+  margin-top: 15px;
+  border-radius: 5px;
+  margin: 20px 10px;
+  color: white;
+}
+.home-cap .btn1 {
+  background-color: burlywood;
+}
+.home-cap .btn2 {
+  background-color: transparent;
+  border: 2px solid white;
+}
+/* /<home> */
 
-}
-.nav-link ul{
-float: right;
-}
-.nav-link ul li{
-    list-style-type: none;
-    padding: 15px;
-    float: left;
-    margin-top: 15px;
-}
-.nav-link ul li a{
-    color: white;
-    text-decoration: none;
-}
-.clr{
-   clear: both; 
-}
-.container{
+
+
+/* start about  */
+.about
+{
+    background-color: cornsilk;
     width: 90%;
     margin: auto;
 }
-.home-cap p{
-    font-size: 23px;
+.about-img
+{
+    background-color: aqua;
+    width: 40%;
+    float: left;
 }
-.home-cap h1{
-    font-size: 55px;
-    font-weight: bold;
-    margin: 20px 0;
+.about-img img
+{
+  width: 100%;
 }
-.home-cap .btn{
-padding: 15px;
-margin-top: 15px;
-border-radius: 5px;
-margin:20px 10px ;
-color: white;
+.about-cap
+{
+  background-color: cadetblue;
+  width: 50%;
+  float: right;
+font-size: 25px;
 }
-.home-cap .btn1{
-    background-color: burlywood;
-  
-}
-.home-cap .btn2{
-    background-color: transparent;
-    border: 2px solid white;
-  
-   
+.about-list
+{
+
 }
