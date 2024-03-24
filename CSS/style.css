@@ -1,6 +1,12 @@
-* {
+*
+ {
   margin: 0;
-}
+  padding: 0;
+ }
+ body
+ {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
 .home {
   background-image: url(..//images/Copy\ of\ drew-coffman-1872.jpg);
   width: 100%;
@@ -39,8 +45,7 @@
   color: white;
   text-decoration: none;
 }
-.clr 
-{
+.clr {
   clear: both;
 }
 .container {
@@ -64,6 +69,7 @@
 }
 .home-cap .btn1 {
   background-color: burlywood;
+  
 }
 .home-cap .btn2 {
   background-color: transparent;
@@ -71,20 +77,18 @@
 }
 /* /<home> */
 
-
-
 /* start about  */
-.about
-{
-    background-color: cornsilk;
-    width: 90%;
-    margin: auto;
+.about {
+ 
+  width: 90%;
+  margin: auto;
+  margin-top: 50px;
 }
 .about-img
 {
-    background-color: aqua;
-    width: 40%;
-    float: left;
+
+  width: 40%;
+  float: left;
 }
 .about-img img
 {
@@ -92,12 +96,28 @@
 }
 .about-cap
 {
-  background-color: cadetblue;
+
   width: 50%;
   float: right;
-font-size: 25px;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 20px;
+  color:#686868;
+  margin-right: 20px;
+}
+.about-cap h2
+{
+  color: black;
+}
+.about-cap p
+{
+  margin: 20px 0;
 }
 .about-list
 {
-
+  text-align: left;
+}
+.about-list ul li 
+{
+  padding: 20px;
 }
