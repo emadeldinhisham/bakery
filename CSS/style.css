@@ -2,6 +2,7 @@
  {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
  }
  body
  {
@@ -121,3 +122,53 @@
 {
   padding: 20px;
 }
+/* /About */
+/* our Offer */
+.offer
+{
+  width: 90%;
+  margin: auto;
+}
+.offer-cap
+{
+  width: 50%;
+  float: left;
+  text-align: center;
+  margin:50px 30px ;
+  color:#686868;
+
+}
+.offer-cap h2
+{
+  color: black;
+}
+.offer-img
+{
+  width: 40%;
+  float: right;
+}
+.offer-img img
+{
+  width: 100%;
+}
+.para
+{
+  margin: 20px 0px;
+}
+/* /offer */
+/* Gallery */
+.meal
+{
+width: 33%;
+text-align: center;
+float: left;
+}
+.meal img
+{
+  width: 100%;
+}
+.inner
+{
+  padding: ;
+}
+ 
